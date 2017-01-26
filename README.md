@@ -1,6 +1,6 @@
-![Splat ECS Starter Project](./src/images/logo.png)
+# Splat 3D Starter Project
 
-A sample starter game using [splat-ecs](https://github.com/SplatJS/splat-ecs)
+A proof of concept 3D renderer for the [splat-ecs](https://github.com/SplatJS/splat-ecs) game engine using ThreeJS
 
 # Get started
 
@@ -9,10 +9,3 @@ A sample starter game using [splat-ecs](https://github.com/SplatJS/splat-ecs)
 3. Run `npm install` inside the project folder
 4. Run `npm start` inside the project folder
 5. Navigate to [localhost:4000](localhost:4000) in your browser
-
-
-# Sharing your game
-
-1. Run `npm run build` inside the project folder
-2. Zip and distribute build folder - or - Rename, upload, and serve build directory from your website
-# Splat-3D
