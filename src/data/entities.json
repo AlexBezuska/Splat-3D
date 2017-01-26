@@ -1,0 +1,159 @@
+{
+  "main": [
+    {
+      "id": 0,
+      "name": "camera",
+      "camera": true,
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "matchCanvasSize": true
+    },
+    {
+      "id": 1,
+      "name": "player",
+      "material": {
+        "type": "basic",
+        "color": "rgba(190,100,59,1)"
+      },
+      "model": {
+        "type": "sphere"
+      },
+      "geometry":{
+        "radiusTop": 5,
+        "radiusBottom": 5,
+        "height": 30,
+        "radiusSegments": 32
+      },
+      "rotation3d": {
+        "x": 0.01,
+        "y": 0.01,
+        "z": 0.01
+      },
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "size": {
+        "width": 10,
+        "height": 10
+      },
+      "velocity": {
+        "x": 0,
+        "y": 0
+      },
+      "playerController2d": {
+        "up": "up",
+        "down": "down",
+        "left": "left",
+        "right": "right"
+      },
+      "movement2d": {
+        "upMax": -0.05,
+        "downMax": 0.05,
+        "leftMax": -0.05,
+        "rightMax": 0.05,
+        "upAccel": -0.02,
+        "downAccel": 0.02,
+        "leftAccel": -0.02,
+        "rightAccel": 0.02
+      },
+      "friction": {
+        "x": 0.97,
+        "y": 0.97
+      }
+    },
+    {
+      "id": 2,
+      "material": {
+        "type": "basic",
+        "color": "rgba(20,150,89,1)"
+      },
+      "model": {
+        "type": "box"
+      },
+      "geometry":{
+        "width": 10,
+        "height": 10,
+        "depth": 10
+      },
+      "rotation3d": {
+        "x": 0.01,
+        "y": 0.01,
+        "z": 0.01
+      },
+      "position": {
+        "x": -60,
+        "y": 0,
+        "z": 0
+      },
+      "size": {
+        "width": 5,
+        "height": 5
+      }
+    },
+
+    {
+      "id": 3,
+      "material": {
+        "type": "basic",
+        "color": "rgba(120,150,59,1)"
+      },
+      "model": {
+        "type": "cylinder"
+      },
+      "geometry":{
+        "radiusTop": 5,
+        "radiusBottom": 5,
+        "height": 30,
+        "radiusSegments": 32
+      },
+      "rotation3d": {
+        "x": 0.01,
+        "y": 0.01,
+        "z": 0.01
+      },
+      "position": {
+        "x": -30,
+        "y": 20,
+        "z": 0
+      },
+      "size": {
+        "width": 15,
+        "height": 15
+      }
+    },
+    {
+      "id": 5,
+      "material": {
+        "type": "basic",
+        "color": "rgba(0,0,255,1)"
+      },
+      "model": {
+        "type": "box"
+      },
+      "geometry":{
+        "width": 20,
+        "height": 20,
+        "depth": 500
+      },
+      "rotation3d": {
+        "x": 0.01,
+        "y": 0.01,
+        "z": 0.01
+      },
+      "position": {
+        "x": -30,
+        "y": 25,
+        "z": 0
+      },
+      "size": {
+        "width": 5,
+        "height": 5
+      }
+    }
+
+  ]
+}
